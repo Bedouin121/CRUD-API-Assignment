@@ -192,11 +192,8 @@ curl -X DELETE http://localhost:8000/tasks/1
 
 ### Swagger UI
 
-> Add a screenshot of `/docs` here.
+<img width="1920" height="1080" alt="{71355D6F-D949-40FC-BC58-9514F6F523A1}" src="https://github.com/user-attachments/assets/401d508a-9548-4d99-9fdc-5d6e4b39922b" />
 
-### API Requests
-
-> Add screenshots of successful CRUD operations here.
 
 ---
 
