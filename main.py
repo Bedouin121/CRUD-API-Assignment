@@ -81,3 +81,8 @@ def delete_task(task_id: int):
             tasks.pop(i)
             return  # Returns nothing
     raise HTTPException(status_code=404, detail={"error": f"Task {task_id} not found"})
+
+#Swagger UI
+@app.get("/tasks", summary="Get all tasks", description="Returns the full list of tasks")
+def get_all_tasks():
+    return tasks
